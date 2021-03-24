@@ -10,7 +10,7 @@ services:
       - '3000:3000'
     volumes:
       - '.:/product-register'
-    environment: 
+    environment:
       - 'DATABASE_PASSWORD=postgres'
     tty: true
     stdin_open: true
